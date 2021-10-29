@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     
     var typed = new Typed(".typing", {
-        strings: ["UI Designer", "Front-end Developer", "Video Editor", "Graphics Designer", "Freelancer"],
+        strings: ["UI Designer", "Front-end Developer", "Video Editor", "Graphic Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["UI Designer", "Front-end Developer", "Video Editor", "Graphics Designer", "Freelancer"],
+        strings: ["UI Designer", "Front-end Developer", "Video Editor", "Graphic Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
