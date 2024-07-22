@@ -28,7 +28,7 @@ section{
 }
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 0px;
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
@@ -83,7 +83,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: blue;
+    background: rgb(255, 115, 0);
 }
 .navbar .max-width{
     display: flex;
@@ -96,7 +96,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: blue;
+    color: rgb(255, 115, 0);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -110,15 +110,17 @@ section .title::after{
     display: block;
     color: #fff;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: cblue;
+    color: blue;
+    font-weight: bold;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: blue;
+    font-weight: bold;
 }
 
 .menu-btn{
@@ -131,12 +133,12 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: blue;
+    background: orangered;
     right: 30px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: white;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -144,7 +146,7 @@ section .title::after{
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s ease;
+    transition: all 0.03s ease;
 }
 .scroll-up-btn.show{
     bottom: 30px;
@@ -152,12 +154,12 @@ section .title::after{
     pointer-events: auto;
 }
 .scroll-up-btn:hover{
-    filter: brightness(90%);
+    filter: brightness(80%);
 }
 
 .home{
     display: flex;
-    background: url("images/bannerprof.jpg") no-repeat center;
+    background: url("images/web_background.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -239,6 +241,9 @@ section .title::after{
 .about .about-content .right .text span{
     color: crimson;
 }
+.about .about-content .right h4{
+    text-align: left
+}
 .about .about-content .right p{
     text-align: justify;
 }
@@ -273,11 +278,11 @@ section .title::after{
     content: "what i provide";
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(33% - 12px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
+    border-radius: 20px;
+    padding: 60px 20px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -361,22 +366,24 @@ section .title::after{
     top: 0;
     background: rgb(255, 115, 0);
 }
-.skills-content .right .html::before{
-    width: 75%;
+.skills-content .right .Web::before{
+    width: 80%;
 }
-.skills-content .right .css::before{
-    width: 75%;
+.skills-content .right .Video::before{
+    width: 87%;
 }
-.skills-content .right .js::before{
-    width: 30%;
+.skills-content .right .Graphic::before{
+    width: 85%;
 }
-.skills-content .right .php::before{
-    width: 25%;
+.skills-content .right .Management::before{
+    width: 90%;
 }
-.skills-content .right .mysql::before{
-    width: 10%;
+.skills-content .right .Data::before{
+    width: 88%;
 }
-
+.skills-content .right .Engineering::before{
+    width: 95%;
+}
 .teams .title::after{
     content: "what i've done";
 }
